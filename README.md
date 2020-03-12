@@ -1,7 +1,7 @@
 # custom-select
 Для замены стандартного выпадающего списка (select) на кастомный, основанный на блоках. 
 
-#Установка
+# Установка
 
 Подключить CSS в head (Font Awesome необходим для отображения иконки)
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
