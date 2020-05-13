@@ -19,9 +19,10 @@ class CustomSelect {
 		this.changeSelectValue = this.changeSelectValue.bind(this);
 		this.createCustomSelect = this.createCustomSelect.bind(this);
 		this.hideAll = this.hideAll.bind(this);
+		this.createCustomBlock();
 	}
 
-	init() {
+	update() {
 		this.createCustomBlock();
 	}
 
@@ -152,5 +153,4 @@ const params = {
 
 window.onload = () => {
 	const custom = new CustomSelect(params);
-	custom.init();
 }
